@@ -10,7 +10,7 @@ variable "dataplane_external_id" {
 variable "cluster_name" {
   description = "Name of EKS cluster"
   type        = string
-  default     = "tf-min"
+  default     = "dataplane"
 }
 variable "master_users" {
   description = "The master user to administer the cluster"
