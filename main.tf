@@ -53,7 +53,7 @@ module "eks_blueprints" {
   source  = "github.com/aws-ia/terraform-aws-eks-blueprints"
 
   cluster_name    = local.name
-  cluster_version = "1.23"
+  cluster_version = "1.24"
 
   vpc_id             = module.vpc.vpc_id
   private_subnet_ids = module.vpc.private_subnets
